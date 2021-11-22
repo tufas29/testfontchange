@@ -1,13 +1,18 @@
-body {
+@font-face {
+  font-family: "Rubikasd";
+  src: url("fonts/Rubik-VariableFont_wght.ttf");
+  /* src: url(http://www.example.org/mycustomfont.ttf) format("truetype"); */
+}
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+body {
+  font-family: Rubikasd;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
